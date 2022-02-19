@@ -22,7 +22,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEI-2F-t2x">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEI-2F-t2x">
                                 <rect key="frame" x="204" y="54" width="52" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="eye" catalog="system"/>
@@ -218,23 +218,27 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="Yag-Hm-Ahv"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="2lq-yZ-oe5"/>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnO-46-neh">
-                                <rect key="frame" x="266" y="54" width="85.5" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFK-ho-1c2">
+                                <rect key="frame" x="284" y="54" width="89" height="31"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="person.circle.fill" catalog="system" title="config"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Click Aqui"/>
+                                <connections>
+                                    <segue destination="fGU-kT-F6A" kind="show" id="Jgf-VX-eXh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="IFK-ho-1c2" firstAttribute="leading" secondItem="oEI-2F-t2x" secondAttribute="trailing" constant="5" id="1Sw-DD-JN9"/>
                             <constraint firstItem="k8S-0o-D6E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3BA-y2-ycr"/>
                             <constraint firstItem="oN2-ZN-Kj1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7Hz-ce-NIe"/>
                             <constraint firstItem="Q0H-6v-TPW" firstAttribute="top" secondItem="k8S-0o-D6E" secondAttribute="bottom" constant="20" id="8wU-Jp-11P"/>
                             <constraint firstItem="oN2-ZN-Kj1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HnI-Jv-0Lu"/>
+                            <constraint firstItem="IFK-ho-1c2" firstAttribute="centerY" secondItem="oEI-2F-t2x" secondAttribute="centerY" id="NF7-ib-qA4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IFK-ho-1c2" secondAttribute="trailing" constant="5" id="NQ5-f8-KcZ"/>
                             <constraint firstItem="Q0H-6v-TPW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="O5c-d5-OFY"/>
                             <constraint firstItem="oEI-2F-t2x" firstAttribute="leading" secondItem="k8S-0o-D6E" secondAttribute="trailing" constant="30" id="acK-Zb-Qka"/>
-                            <constraint firstItem="KnO-46-neh" firstAttribute="centerY" secondItem="oEI-2F-t2x" secondAttribute="centerY" id="gJN-d0-a12"/>
-                            <constraint firstItem="KnO-46-neh" firstAttribute="leading" secondItem="oEI-2F-t2x" secondAttribute="trailing" constant="10" id="lzh-22-iTW"/>
                             <constraint firstItem="oN2-ZN-Kj1" firstAttribute="top" secondItem="Q0H-6v-TPW" secondAttribute="bottom" constant="10" id="pNg-Ga-nou"/>
                             <constraint firstItem="oEI-2F-t2x" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="rTw-1J-XXW"/>
                             <constraint firstItem="k8S-0o-D6E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="roy-k9-drh"/>
@@ -258,22 +262,34 @@
         <!--View Controller-->
         <scene sceneID="gKk-rZ-dzz">
             <objects>
-                <viewController id="fGU-kT-F6A" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Segunda Tela" id="fGU-kT-F6A" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RY0-xG-DNE">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Segunda Tela" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UyT-6E-78w">
+                                <rect key="frame" x="155.5" y="393.5" width="103" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ReN-yE-r8s"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UyT-6E-78w" firstAttribute="centerY" secondItem="ReN-yE-r8s" secondAttribute="centerY" id="RBw-m8-iqM"/>
+                            <constraint firstItem="UyT-6E-78w" firstAttribute="centerX" secondItem="ReN-yE-r8s" secondAttribute="centerX" id="vdM-hd-8wy"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="kkr-bf-VOd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pku-V2-y2o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="894" y="89"/>
+            <point key="canvasLocation" x="919" y="70"/>
         </scene>
     </scenes>
     <resources>
         <image name="eye" catalog="system" width="128" height="81"/>
-        <image name="person.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

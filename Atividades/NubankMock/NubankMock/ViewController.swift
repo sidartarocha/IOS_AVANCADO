@@ -8,17 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
     @IBOutlet weak var firstFview: FirstCustomView!
     @IBOutlet weak var firstSView: SecondCustomView!
     
     @IBOutlet weak var secondFview: FirstCustomView!
     
     @IBOutlet weak var secondSview: SecondCustomView!
-    
     @IBOutlet weak var thirdFview: FirstCustomView!
-    
     @IBOutlet weak var trhidSview: SecondCustomView!
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,5 +34,6 @@ class ViewController: UIViewController {
     }
 
 
+ 
 }
 
