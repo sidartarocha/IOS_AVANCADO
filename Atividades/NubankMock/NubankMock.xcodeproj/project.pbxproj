@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576C7CD727C147F100CB18BA /* FirstCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C7CD627C147F000CB18BA /* FirstCustomView.swift */; };
+		576C7CD927C147FF00CB18BA /* SecondCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C7CD827C147FF00CB18BA /* SecondCustomView.swift */; };
+		576C7CDB27C1480F00CB18BA /* FirstCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 576C7CDA27C1480F00CB18BA /* FirstCustomView.xib */; };
+		576C7CDD27C1481F00CB18BA /* SecondCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 576C7CDC27C1481F00CB18BA /* SecondCustomView.xib */; };
 		57956C4927AEB80F00141FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57956C4827AEB80F00141FB1 /* AppDelegate.swift */; };
 		57956C4B27AEB80F00141FB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57956C4A27AEB80F00141FB1 /* SceneDelegate.swift */; };
 		57956C4D27AEB80F00141FB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57956C4C27AEB80F00141FB1 /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		576C7CD627C147F000CB18BA /* FirstCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCustomView.swift; sourceTree = "<group>"; };
+		576C7CD827C147FF00CB18BA /* SecondCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCustomView.swift; sourceTree = "<group>"; };
+		576C7CDA27C1480F00CB18BA /* FirstCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstCustomView.xib; sourceTree = "<group>"; };
+		576C7CDC27C1481F00CB18BA /* SecondCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondCustomView.xib; sourceTree = "<group>"; };
 		57956C4527AEB80F00141FB1 /* NubankMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NubankMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57956C4827AEB80F00141FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57956C4A27AEB80F00141FB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +70,10 @@
 				57956C4A27AEB80F00141FB1 /* SceneDelegate.swift */,
 				57956C4C27AEB80F00141FB1 /* ViewController.swift */,
 				57956C4E27AEB80F00141FB1 /* Main.storyboard */,
+				576C7CD627C147F000CB18BA /* FirstCustomView.swift */,
+				576C7CDA27C1480F00CB18BA /* FirstCustomView.xib */,
+				576C7CD827C147FF00CB18BA /* SecondCustomView.swift */,
+				576C7CDC27C1481F00CB18BA /* SecondCustomView.xib */,
 				57956C5427AEB81100141FB1 /* Assets.xcassets */,
 				57956C5627AEB81100141FB1 /* LaunchScreen.storyboard */,
 				57956C5927AEB81100141FB1 /* Info.plist */,
@@ -130,7 +142,9 @@
 			files = (
 				57956C5827AEB81100141FB1 /* LaunchScreen.storyboard in Resources */,
 				57956C5527AEB81100141FB1 /* Assets.xcassets in Resources */,
+				576C7CDB27C1480F00CB18BA /* FirstCustomView.xib in Resources */,
 				57956C5027AEB80F00141FB1 /* Main.storyboard in Resources */,
+				576C7CDD27C1481F00CB18BA /* SecondCustomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				57956C5327AEB80F00141FB1 /* NubankMock.xcdatamodeld in Sources */,
+				576C7CD727C147F100CB18BA /* FirstCustomView.swift in Sources */,
 				57956C4D27AEB80F00141FB1 /* ViewController.swift in Sources */,
 				57956C4927AEB80F00141FB1 /* AppDelegate.swift in Sources */,
 				57956C4B27AEB80F00141FB1 /* SceneDelegate.swift in Sources */,
+				576C7CD927C147FF00CB18BA /* SecondCustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

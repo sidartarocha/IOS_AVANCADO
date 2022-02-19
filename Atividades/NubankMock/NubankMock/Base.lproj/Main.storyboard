@@ -27,117 +27,52 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="eye" catalog="system"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pco-b9-mQx">
-                                <rect key="frame" x="286" y="54" width="45" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="pencil.circle" catalog="system"/>
-                            </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q0H-6v-TPW">
                                 <rect key="frame" x="0.0" y="113.5" width="414" height="588.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aXM-we-jtU">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="720"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jkR-gz-FIk">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jkR-gz-FIk" customClass="FirstCustomView" customModule="NubankMock" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSu-Fs-VH3">
-                                                        <rect key="frame" x="175" y="45" width="64" height="30"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
-                                                    <constraint firstItem="QSu-Fs-VH3" firstAttribute="centerY" secondItem="jkR-gz-FIk" secondAttribute="centerY" id="6be-ho-ZqR"/>
                                                     <constraint firstAttribute="height" constant="120" id="bix-N0-j61"/>
-                                                    <constraint firstItem="QSu-Fs-VH3" firstAttribute="centerX" secondItem="jkR-gz-FIk" secondAttribute="centerX" id="sj8-Rk-dHF"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="063-aa-bmL">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="063-aa-bmL" customClass="SecondCustomView" customModule="NubankMock" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="120" width="414" height="120"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n68-kL-0KI">
-                                                        <rect key="frame" x="175" y="45" width="64" height="30"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="HXp-9b-fGj"/>
-                                                    <constraint firstItem="n68-kL-0KI" firstAttribute="centerY" secondItem="063-aa-bmL" secondAttribute="centerY" id="j2K-1c-tHY"/>
-                                                    <constraint firstItem="n68-kL-0KI" firstAttribute="centerX" secondItem="063-aa-bmL" secondAttribute="centerX" id="xRU-HH-fNF"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5rA-7t-FWS">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5rA-7t-FWS" customClass="FirstCustomView" customModule="NubankMock" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="240" width="414" height="120"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOh-ce-bG6">
-                                                        <rect key="frame" x="175" y="45" width="64" height="30"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
-                                                    <constraint firstItem="xOh-ce-bG6" firstAttribute="centerY" secondItem="5rA-7t-FWS" secondAttribute="centerY" id="Nyw-e8-HYz"/>
                                                     <constraint firstAttribute="height" constant="120" id="Qqg-9q-bz2"/>
-                                                    <constraint firstItem="xOh-ce-bG6" firstAttribute="centerX" secondItem="5rA-7t-FWS" secondAttribute="centerX" id="vxx-6w-84c"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ywh-m2-q1m">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ywh-m2-q1m" customClass="SecondCustomView" customModule="NubankMock" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="360" width="414" height="120"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iwv-65-ebO">
-                                                        <rect key="frame" x="175" y="45" width="64" height="30"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
-                                                    <constraint firstItem="iwv-65-ebO" firstAttribute="centerX" secondItem="Ywh-m2-q1m" secondAttribute="centerX" id="26a-Dh-XuU"/>
                                                     <constraint firstAttribute="height" constant="120" id="fFh-3i-keD"/>
-                                                    <constraint firstItem="iwv-65-ebO" firstAttribute="centerY" secondItem="Ywh-m2-q1m" secondAttribute="centerY" id="zYv-te-wqt"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ne-Ly-Th9">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ne-Ly-Th9" customClass="FirstCustomView" customModule="NubankMock" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="480" width="414" height="120"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cp-Wh-UWh">
-                                                        <rect key="frame" x="175" y="45" width="64" height="30"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
-                                                    <constraint firstItem="3cp-Wh-UWh" firstAttribute="centerX" secondItem="9Ne-Ly-Th9" secondAttribute="centerX" id="28J-6g-iOU"/>
                                                     <constraint firstAttribute="height" constant="120" id="jru-H5-5xk"/>
-                                                    <constraint firstItem="3cp-Wh-UWh" firstAttribute="centerY" secondItem="9Ne-Ly-Th9" secondAttribute="centerY" id="mMX-tK-to5"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DWE-WQ-0xg">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DWE-WQ-0xg" customClass="SecondCustomView" customModule="NubankMock" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="600" width="414" height="120"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebq-jh-HVa">
-                                                        <rect key="frame" x="175" y="45" width="64" height="30"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
-                                                    <constraint firstItem="Ebq-jh-HVa" firstAttribute="centerY" secondItem="DWE-WQ-0xg" secondAttribute="centerY" id="T2V-cY-95q"/>
                                                     <constraint firstAttribute="height" constant="120" id="e7d-1Y-iDM"/>
-                                                    <constraint firstItem="Ebq-jh-HVa" firstAttribute="centerX" secondItem="DWE-WQ-0xg" secondAttribute="centerX" id="rHV-gy-dSA"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -283,6 +218,11 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="Yag-Hm-Ahv"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="2lq-yZ-oe5"/>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnO-46-neh">
+                                <rect key="frame" x="266" y="54" width="85.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="person.circle.fill" catalog="system" title="config"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -292,9 +232,9 @@
                             <constraint firstItem="Q0H-6v-TPW" firstAttribute="top" secondItem="k8S-0o-D6E" secondAttribute="bottom" constant="20" id="8wU-Jp-11P"/>
                             <constraint firstItem="oN2-ZN-Kj1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HnI-Jv-0Lu"/>
                             <constraint firstItem="Q0H-6v-TPW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="O5c-d5-OFY"/>
-                            <constraint firstItem="pco-b9-mQx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Zxe-Je-WN3"/>
                             <constraint firstItem="oEI-2F-t2x" firstAttribute="leading" secondItem="k8S-0o-D6E" secondAttribute="trailing" constant="30" id="acK-Zb-Qka"/>
-                            <constraint firstItem="pco-b9-mQx" firstAttribute="leading" secondItem="oEI-2F-t2x" secondAttribute="trailing" constant="30" id="acq-P2-oDb"/>
+                            <constraint firstItem="KnO-46-neh" firstAttribute="centerY" secondItem="oEI-2F-t2x" secondAttribute="centerY" id="gJN-d0-a12"/>
+                            <constraint firstItem="KnO-46-neh" firstAttribute="leading" secondItem="oEI-2F-t2x" secondAttribute="trailing" constant="10" id="lzh-22-iTW"/>
                             <constraint firstItem="oN2-ZN-Kj1" firstAttribute="top" secondItem="Q0H-6v-TPW" secondAttribute="bottom" constant="10" id="pNg-Ga-nou"/>
                             <constraint firstItem="oEI-2F-t2x" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="rTw-1J-XXW"/>
                             <constraint firstItem="k8S-0o-D6E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="roy-k9-drh"/>
@@ -302,15 +242,38 @@
                             <constraint firstItem="Q0H-6v-TPW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xf4-SF-5KC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="firstFview" destination="jkR-gz-FIk" id="wFu-xZ-t24"/>
+                        <outlet property="firstSView" destination="063-aa-bmL" id="rVz-uH-55V"/>
+                        <outlet property="secondFview" destination="5rA-7t-FWS" id="meE-R7-T0M"/>
+                        <outlet property="secondSview" destination="Ywh-m2-q1m" id="eos-IB-mWF"/>
+                        <outlet property="thirdFview" destination="9Ne-Ly-Th9" id="oCO-CT-eUc"/>
+                        <outlet property="trhidSview" destination="DWE-WQ-0xg" id="vGg-RE-PmW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="28.985507246376812" y="69.642857142857139"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="gKk-rZ-dzz">
+            <objects>
+                <viewController id="fGU-kT-F6A" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RY0-xG-DNE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ReN-yE-r8s"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pku-V2-y2o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="894" y="89"/>
+        </scene>
     </scenes>
     <resources>
         <image name="eye" catalog="system" width="128" height="81"/>
-        <image name="pencil.circle" catalog="system" width="128" height="121"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
