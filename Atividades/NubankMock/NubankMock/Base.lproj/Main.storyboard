@@ -23,7 +23,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oEI-2F-t2x">
-                                <rect key="frame" x="204" y="54" width="52" height="31"/>
+                                <rect key="frame" x="204" y="54" width="52" height="39.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="eye" catalog="system"/>
                             </button>
@@ -219,7 +219,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="2lq-yZ-oe5"/>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFK-ho-1c2">
-                                <rect key="frame" x="284" y="54" width="89" height="31"/>
+                                <rect key="frame" x="320.5" y="58.5" width="88.5" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Click Aqui"/>
                                 <connections>
@@ -230,18 +230,19 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="IFK-ho-1c2" firstAttribute="leading" secondItem="oEI-2F-t2x" secondAttribute="trailing" constant="5" id="1Sw-DD-JN9"/>
                             <constraint firstItem="k8S-0o-D6E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3BA-y2-ycr"/>
                             <constraint firstItem="oN2-ZN-Kj1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7Hz-ce-NIe"/>
                             <constraint firstItem="Q0H-6v-TPW" firstAttribute="top" secondItem="k8S-0o-D6E" secondAttribute="bottom" constant="20" id="8wU-Jp-11P"/>
+                            <constraint firstItem="oEI-2F-t2x" firstAttribute="leading" secondItem="k8S-0o-D6E" secondAttribute="trailing" constant="5" id="BqQ-2f-0ji"/>
                             <constraint firstItem="oN2-ZN-Kj1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="HnI-Jv-0Lu"/>
                             <constraint firstItem="IFK-ho-1c2" firstAttribute="centerY" secondItem="oEI-2F-t2x" secondAttribute="centerY" id="NF7-ib-qA4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IFK-ho-1c2" secondAttribute="trailing" constant="5" id="NQ5-f8-KcZ"/>
                             <constraint firstItem="Q0H-6v-TPW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="O5c-d5-OFY"/>
-                            <constraint firstItem="oEI-2F-t2x" firstAttribute="leading" secondItem="k8S-0o-D6E" secondAttribute="trailing" constant="30" id="acK-Zb-Qka"/>
+                            <constraint firstItem="oEI-2F-t2x" firstAttribute="centerY" secondItem="k8S-0o-D6E" secondAttribute="centerY" id="Qsc-v6-vwS"/>
                             <constraint firstItem="oN2-ZN-Kj1" firstAttribute="top" secondItem="Q0H-6v-TPW" secondAttribute="bottom" constant="10" id="pNg-Ga-nou"/>
                             <constraint firstItem="oEI-2F-t2x" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="rTw-1J-XXW"/>
                             <constraint firstItem="k8S-0o-D6E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="roy-k9-drh"/>
+                            <constraint firstItem="IFK-ho-1c2" firstAttribute="leading" secondItem="oEI-2F-t2x" secondAttribute="trailing" constant="5" id="uTH-oy-gC1"/>
                             <constraint firstItem="oN2-ZN-Kj1" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vFY-Xz-NzS"/>
                             <constraint firstItem="Q0H-6v-TPW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xf4-SF-5KC"/>
                         </constraints>
